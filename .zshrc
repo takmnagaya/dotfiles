@@ -17,3 +17,6 @@ source /Users/nagayatakumi/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.
 alias g='git'
 alias s='git status'
 
+export ZPLUG_HOME=/usr/local/opt/zplug
+source $ZPLUG_HOME/init.zsh
+
