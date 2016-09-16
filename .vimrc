@@ -25,6 +25,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
+" logファイルの色付け
+NeoBundle 'vim-scripts/AnsiEsc.vim'
 
 call neobundle#end()
 
