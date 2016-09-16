@@ -29,6 +29,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/unite.vim'
 " " Unite.vimで最近使ったファイルを表示できるようにする
 NeoBundle 'Shougo/neomru.vim'
+" ファイルをtree表示してくれる
+NeoBundle 'scrooloose/nerdtree'
 " logファイルの色付け
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 " カラースキーマの設定
