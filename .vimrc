@@ -27,6 +27,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Note: You don't set neobundle setting in .gvimrc!
 " logファイルの色付け
 NeoBundle 'vim-scripts/AnsiEsc.vim'
+" カラースキーマの設定
+NeoBundle 'w0ng/vim-hybrid'
 
 call neobundle#end()
 
@@ -36,4 +38,8 @@ filetype plugin indent on
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
 NeoBundleCheck
+
+set background=dark
+colorscheme hybrid
+syntax on
 
