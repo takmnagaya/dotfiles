@@ -1,3 +1,5 @@
 AnsiEsc.vim
 neobundle.vim
+neomru.vim
+unite.vim
 vim-hybrid

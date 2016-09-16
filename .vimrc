@@ -25,6 +25,10 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
+" ファイルオープンを便利に
+NeoBundle 'Shougo/unite.vim'
+" " Unite.vimで最近使ったファイルを表示できるようにする
+NeoBundle 'Shougo/neomru.vim'
 " logファイルの色付け
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 " カラースキーマの設定
