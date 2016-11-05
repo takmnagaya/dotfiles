@@ -34,6 +34,8 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias g='git'
 alias s='git status'
 alias ll='ls -al'
+alias v='vim'
+alias r='rails'
 
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
