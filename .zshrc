@@ -46,3 +46,5 @@ export NVM_DIR="/Users/nagayatakumi/.nvm"
 
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+# TomcatのJavaバージョン指定するためにはJAVA_HOMEを定義しないといけない
+export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
