@@ -4,6 +4,9 @@ set cursorline
 set showmatch
 set hlsearch
 set wildmenu
+set shiftwidth=2
+set autoindent
+set smartindent
 
 " Note: Skip initialization for vim-tiny or vim-small.
 if 0 | endif
