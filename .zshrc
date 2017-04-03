@@ -28,6 +28,7 @@ colors
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+export PATH="$HOME/.rbenv/shims:$PATH"
 eval "$(rbenv init -)"
 
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
