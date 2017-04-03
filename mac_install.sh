@@ -1,12 +1,12 @@
 # symbolic link setting
-ln -sf ~/dotfiles/.oh-my-zsh .oh-my-zsh
-ln -sf ~/dotfiles/.tmux.conf .tmux.conf
-ln -sf ~/dotfiles/.vim .vim
-ln -sf ~/dotfiles/.vimrc .vimrc
-ln -sf ~/dotfiles/.zsh/ .zsh
-ln -sf ~/dotfiles/.zshrc .zshrc
-ln -sf ~/dotfiles/.zshrc .zshrc.pre-oh-my-zsh
-ln -sf ~/dotfiles/.irbrc .irbrc
+ln -sf ~/dotfiles/.oh-my-zsh ~/.oh-my-zsh
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/.vim ~/.vim
+ln -sf ~/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/.zsh/ ~/.zsh
+ln -sf ~/dotfiles/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/.zshrc ~/.zshrc.pre-oh-my-zsh
+ln -sf ~/dotfiles/.irbrc ~/.irbrc
 # brew install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install ack
