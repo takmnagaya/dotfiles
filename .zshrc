@@ -37,6 +37,8 @@ alias s='git status'
 alias ll='ls -al'
 alias v='vim'
 alias r='rails'
+alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+alias pg-stop='pg_ctl -D /usr/local/var/postgres stop'
 
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
