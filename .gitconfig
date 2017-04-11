@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+  name = takmnagaya
+  email = takmnagaya@gmail.com
+
+
+[core]
+  editor = vim
+	excludesfile = /Users/t_nagaya/.gitignore_global

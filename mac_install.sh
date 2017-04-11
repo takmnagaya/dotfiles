@@ -7,6 +7,8 @@ ln -sf ~/dotfiles/.zsh/ ~/.zsh
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.zshrc ~/.zshrc.pre-oh-my-zsh
 ln -sf ~/dotfiles/.irbrc ~/.irbrc
+ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/.gitigonore_global ~/.gitignore_global
 # brew install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install ack
