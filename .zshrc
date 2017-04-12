@@ -39,6 +39,9 @@ alias v='vim'
 alias r='rails'
 alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pg-stop='pg_ctl -D /usr/local/var/postgres stop'
+alias dcu='docker-compose up'
+alias dcd='docker-compose down'
+alias dcbe='docker-compose run webapp bundle exec'
 
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
