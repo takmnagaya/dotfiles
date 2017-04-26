@@ -103,3 +103,5 @@ brew cask install sqlitebrowser
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install xtrafinder
+curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > ~/neo_bundle_install.sh
+sh ~/neo_bundle_install.sh
