@@ -1,3 +1,5 @@
 # docker設定ファイルは基本的には永冶はGit管理しない
 # 他の人が書いたものが正
 docker-compose.yml
+
+.byebug_history
