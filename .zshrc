@@ -33,6 +33,7 @@ eval "$(rbenv init -)"
 
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias g='git'
+alias commit='git commit'
 alias s='git status'
 alias ll='ls -al'
 alias v='vim'

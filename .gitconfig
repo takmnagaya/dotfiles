@@ -7,4 +7,11 @@
 
 [core]
   editor = vim
-	excludesfile = /Users/t_nagaya/.gitignore_global
+  excludesfile = ~/.gitignore_global
+
+[alias]
+  ad = add
+  co = checkout
+  b = branch
+  l = log
+  cb = checkout -b
