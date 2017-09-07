@@ -33,13 +33,13 @@ eval "$(rbenv init -)"
 
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias g='git'
+alias commit='git commit'
 alias s='git status'
 alias ll='ls -al'
 alias v='vim'
 alias r='rails'
 alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pg-stop='pg_ctl -D /usr/local/var/postgres stop'
-alias brewu='brew update | brew upgrade | brew cleanup'
 alias dcu='docker-compose up'
 alias dcd='docker-compose down'
 alias dcbe='docker-compose run webapp bundle exec'
