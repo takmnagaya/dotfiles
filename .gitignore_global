@@ -4,3 +4,4 @@ docker-compose.yml
 
 .byebug_history
 .DS_Store
+.idea/
