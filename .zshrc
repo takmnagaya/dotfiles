@@ -43,6 +43,11 @@ alias pg-stop='pg_ctl -D /usr/local/var/postgres stop'
 alias dcu='docker-compose up'
 alias dcd='docker-compose down'
 alias od='(){ open dash://$1 }'
+alias tf='terraform'
+alias tfi='terraform init'
+alias tfp='terraform plan'
+alias tfa='terraform apply'
+alias tff='terraform fmt'
 
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
@@ -54,9 +59,9 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 # python
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init -)"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -230,3 +235,6 @@ source $ZSH/oh-my-zsh.sh
 source /usr/local/bin/aws_zsh_completer.sh
 
 export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="/usr/local/go/bin:$PATH"
+export GOPATH="$HOME/go"
+source ~/.az.completion
