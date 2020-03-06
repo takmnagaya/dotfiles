@@ -232,9 +232,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /usr/local/bin/aws_zsh_completer.sh
 
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/usr/local/go/bin:$PATH"
 export GOPATH="$HOME/go"
+autoload bashcompinit && bashcompinit
 source ~/.az.completion
