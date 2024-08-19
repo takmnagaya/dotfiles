@@ -16,7 +16,6 @@ brew install apr
 brew install apr-util
 brew install autoconf
 brew install automake
-brew install aws-elasticbeanstalk
 brew install boost
 brew install cmake
 brew install coreutils
@@ -35,7 +34,6 @@ brew install heroku
 brew install heroku-toolbelt
 brew install httpd22
 brew install hub
-brew install imagemagick
 brew install jenv
 brew install jpeg
 brew install jq
@@ -56,18 +54,11 @@ brew install pcre
 brew install peco
 brew install phantomjs
 brew install pkg-config
-brew install postgresql
 brew install pyenv
 brew install python
-brew install rbenv
-brew install rbenv-gem-rehash
 brew install readline
 brew install reattach-to-user-namespace
-brew install redis
 brew install rlwrap
-brew install ruby-build
-brew install sqlite
-brew install subversion
 brew install the_silver_searcher
 brew install tig
 brew install tmux
@@ -84,24 +75,13 @@ brew install zlib
 brew install zplug
 brew install zsh
 # brew cask install
-brew cask install adobe-reader
-brew cask install brackets
 brew cask install dropbox
 brew cask install firefox
-brew cask install flux
 brew cask install google-chrome
 brew cask install google-japanese-ime
-brew cask install java
-brew cask install java7
 brew cask install karabiner
 brew cask install kindle
-brew cask install pgadmin3
 brew cask install recordit
-brew cask install skitch
-brew cask install skype
-brew cask install sqlitebrowser
-brew cask install vagrant
-brew cask install virtualbox
 brew cask install xtrafinder
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > ~/neo_bundle_install.sh
 sh ~/neo_bundle_install.sh
